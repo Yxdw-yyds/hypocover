@@ -1,0 +1,41 @@
+[project]
+name = "hypocover"
+version = "0.1.0"
+description = "Coverage-aware hypothesis generation for the HypoSpace benchmark"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "sympy>=1.12",
+    "pyyaml>=6.0",
+    "requests>=2.31",
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "tqdm>=4.66",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+# Only needed on the GPU box (2x RTX 4090) for method B.
+rl = [
+    "torch>=2.4",
+    "transformers>=4.51",
+    "trl>=0.19",
+    "peft>=0.13",
+    "datasets>=2.20",
+    "accelerate>=1.0",
+    "vllm>=0.8.5",
+]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["hypocover*", "rl*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
