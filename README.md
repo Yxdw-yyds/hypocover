@@ -1,105 +1,39 @@
-# HypoCover: coverage-aware hypothesis generation on HypoSpace
+# HypoCover 小组交接 · DeepSeek 3D 基线
 
-Course final project (Part 1.2). We try to raise **Recovery** on the
-[HypoSpace](https://proceedings.mlr.press/v306/chen26bz.html) benchmark (ICML 2026),
-where LLMs must list *all* hypotheses consistent with underdetermined
-observations and tend to collapse onto a few of them.
+课程项目占 30%。四人沿用原组队，在 HypoSpace 上开发有新意的 ML 方法，提交公开仓库与 10 分钟小组视频，每个人参与讲解。评分看创新性、重要性与质量。
 
-| | Method | Training | Idea |
-|---|---|---|---|
-| A | **Partition search** (`hypocover/methods/partition.py`) | none, API models | Split the hypothesis space into disjoint cells by structural constraints, query inside cells chosen by a UCB rule, close cells the model declares `EXHAUSTED`, split cells that keep returning duplicates. Oracle-free (the paper's stratified decoding uses the ground-truth complexity distribution). |
-| B | **Coverage-GRPO** (`rl/`) | LoRA + GRPO on Qwen3-4B | Reward a new valid hypothesis with `1/m`, where `m` is how many samples in the GRPO group gave the same answer. A group's total reward equals its marginal coverage, so training shifts probability mass from the head of the distribution to its tail. |
+## 已完成的基线
 
-## Layout
+3×3 俯视图，最大高度 3。两列题每列各有三种高度，共 9 个合法解，给 9 次生成机会。三列题有 27 个解，给 27 次机会。官方逐层提示包含此前可解析且去重的结构。每次生成一个候选，失败和重复同样消耗预算。
 
-```
-hypocover/
-  tasks/        uniform wrapper over the three official domains (causal, 3d, boolean);
-                parsing, validators and canonical keys are the upstream code, unchanged
-  llm/          OpenAI / OpenRouter / DeepSeek / local vLLM clients + an offline mock
-  methods/      direct, memory (= paper protocol), stratified (paper Sec. 6.5), partition (ours)
-  metrics.py    VR / NR / RR exactly as upstream, plus RR curves and simple/complex RR
-  eval/run.py   run one config, resumable, writes results/<run>/{instances.jsonl,summary.json}
-  eval/summarize.py   all results -> one table
-rl/             method B: reward, prompt-set builder, TRL GRPO script, configs, launch.sh
-scripts/make_datasets.sh   generate every dataset with fixed seeds via the upstream generators
-third_party/HypoSpace/     official code, vendored unmodified (MIT), see VENDORED.md
-tests/          round-trip checks of the task wrappers, mock run, reward unit test
-```
+模型为 OpenRouter 的 `deepseek/deepseek-v4-flash-0731`，temperature 0.7，top_p 0.8，max_tokens 512，reasoning.enabled 为 false。OpenRouter 自动选择提供商。完整验证集复用了首轮四题的 512-token 记录。
 
-## Quick start
+| 集合 | 题数 / 候选 | 可解析率 | VR | NR | RR | 同题 Qwen3-8B RR |
+|---|---:|---:|---:|---:|---:|---:|
+| 验证 | 12 / 216 | 95.99% | 77.78% | 66.98% | 51.54% | 4.94% |
+| 测试 | 24 / 432 | 95.52% | 79.48% | 66.20% | 53.55% | 1.08% |
 
-```bash
-uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
-cp .env.example .env              # add API keys
-bash scripts/make_datasets.sh all # writes data/<task>/*.json (causal n6 is slow)
-.venv/bin/python -m pytest -q
-```
+百分比按题等权。VR 是有效候选比例，NR 是不同候选数除以机会数，RR 是不同合法解数除以全部合法解数。测试两列 RR 62.96%，三列 RR 44.14%。验证与测试总费用约 $0.1176。测试中 85/432 条触及长度上限。每题只有一条采样轨迹，等价布局可能跨集合，结论限于当前题型。
 
-Run a baseline and our method on the same instances:
+## 下一阶段方案与分工
+
+研究问题是在同一模型和候选预算下，学习选择下一次生成提示，能否提高合法解覆盖率。以下改进是待验证方案。
+
+- A 维护冻结题单、官方提示基线和评分口径。训练 84 题、验证 12 题、测试 24 题。训练集尚无本次 DeepSeek 基线结果。
+- B 实现高度向量表示、固定引导和历史记录。向量中每个元素对应按行扫描的一个占用位置。每次记录题号、轮次、动作、原始响应、解析结果及是否找到新合法解。
+- C 在训练题收集不同提示的实际回报，学习选择下一条提示。只使用当时已知的历史；测试生成只读输入题单。验证时比较相同提示集合上的随机、固定与学习策略，区分表示收益和学习收益。
+- D 用相同题号配对比较，分别报告两列、三列及整体指标，画累计发现数随候选次数变化的曲线，统计费用、截断和失败原因。视频用一道题演示重复生成，再展示方法和对照结果。
+
+建议在验证集确定方法，再一次性比较测试结果。程序均匀独立采样合法高度的期望 RR 为两列 65.36%、三列 63.90%，可作为解释该结构化任务难度的参照。
+
+## 文件用法
+
+`summary.json` 的分组 2、3、0 分别表示两列、三列和全部；metrics 顺序为可解析率、VR、NR、RR。`results/<题号>.jsonl` 逐次保存提示、回答、token、费用、提供商和终止原因；同名 JSON 保存逐题评分。`data/*-inputs.jsonl` 是生成端输入，带枚举答案的 columns 文件仅供评测或训练。
+
+队友提交每个集合一个 JSONL，每行含 question、slot（从 1 开始）和 scorer_text（逐层体素文本，解析失败可填空串）。原始 DeepSeek 日志对应文本字段名为 response，回放时须映射为 scorer_text。安装 requirements.txt 后，从本目录执行：
 
 ```bash
-.venv/bin/python -m hypocover.eval.run --task 3d --data data/3d/tp3.json --method memory \
-    --model openrouter:deepseek/deepseek-v4.1-flash --n-instances 30
-.venv/bin/python -m hypocover.eval.run --task 3d --data data/3d/tp3.json --method partition \
-    --model openrouter:deepseek/deepseek-v4.1-flash --n-instances 30
-.venv/bin/python -m hypocover.eval.summarize
+python score_predictions.py validation predictions.jsonl --output validation-score.json
 ```
 
-`--model mock:zipf` runs everything offline with a simulated peaked generator (no cost).
-Other flags: `--budget-mult` (queries = mult × |H_O|, default 1 as in the paper),
-`--method-args '{"alloc":"uniform"}'`, `--min-gt` (default 2, skips trivial instances),
-`--workers` (parallel instances).
-
-## Evaluation protocol (keep fixed for every method)
-
-* Budget N = |H_O| hypothesis-producing queries per instance; parse failures are
-  retried as upstream does (cost tokens, not budget). Partition search counts its
-  `EXHAUSTED` answers against the budget too.
-* Same instances for every method: `--seed 33550336 --n-instances 30`.
-* Report VR / NR / RR and tokens / cost. Two settings, reported separately:
-  *no validator* (default) and *validator-in-the-loop* (`use_validator: true`).
-* "Write a program that enumerates H_O" solves these toy domains outright. We treat it
-  as a reference upper bound, not as a competitor, because real scientific hypothesis
-  spaces cannot be enumerated.
-
-## Datasets
-
-| task | level | file | mean \|H_O\| |
-|---|---|---|---|
-| 3d | L1 / L2 / L3 / large | `data/3d/tp{1,2,3}.json`, `large.json` | 3 / 9 / 27 / 125 (matches paper) |
-| causal | L1 / L2 / L3 / large | `data/causal/n{4,5,6}.json`, `large.json` | to be checked against paper |
-| boolean | basic / extended / full | `data/boolean/{basic,extended,full}_d{2,3}.json` | depth 2: 4 / 6.5 / 11; paper's hard is ~78, needs config check |
-
-## Known upstream issue (worth reporting)
-
-Some ground-truth Boolean expressions are rejected by the official validator.
-`NOT (x OR y)` is listed in H_O, but `_check_operators_in_ast` reads it as `NOR`,
-which the `extended` set does not allow. In the `full` set, `_get_ast_depth` counts
-`NOT(NOR)` as one level deeper than the generator does. As a result the best possible
-RR under the official scorer is 0.985 on `extended_d2` and **0.545 on `full_d2`**
-(computed by `tests/test_tasks.py::ceiling`). The paper's Boolean "collapse" at
-higher levels is partly this artefact. We report official RR for comparability and
-the ceiling next to it.
-
-## Method B on the GPU box (2× RTX 4090)
-
-```bash
-bash rl/launch.sh setup          # deps, datasets, data/rl/train.jsonl
-bash rl/launch.sh serve          # terminal 1, GPU 0: trl vllm-serve
-bash rl/launch.sh train          # terminal 2, GPU 1: GRPO + LoRA
-bash rl/launch.sh eval checkpoints/qwen3_4b_cov   # serve adapter, then eval with --model vllm:cov
-```
-
-Ablation: `bash rl/launch.sh train --no-share` (reward 1 for any new valid answer).
-Train levels: causal n4/n5, 3d tp2, boolean basic/extended d2. Hard and large levels
-are held out for evaluation.
-
-## Team
-
-See [TEAM.md](TEAM.md) for roles and the schedule.
-
-## Credits
-
-Benchmark and official code: Chen et al., *HypoSpace*, ICML 2026
-([code](https://github.com/CTT-Pavilion/_HypoSpace), MIT).
+评分器来自冻结的上游版本，含全零层兼容修复。[HypoSpace 论文](https://proceedings.mlr.press/v306/chen26bz.html) · [上游代码版本](https://github.com/CTT-Pavilion/_HypoSpace/tree/c69e9318577b34b5b896996571aefd4ba6053f58/3d)
