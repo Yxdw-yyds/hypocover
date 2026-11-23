@@ -1,0 +1,63 @@
+{
+  "observation_set_id": "g3_h3_b3_067",
+  "n_observations": 1,
+  "n_ground_truths": 27,
+  "n_queries": 27,
+  "n_valid": 20,
+  "n_unique": 11,
+  "n_recovered_gts": 8,
+  "parse_success_count": 23,
+  "parse_success_rate": 0.8518518518518519,
+  "valid_rate": 0.7407407407407407,
+  "novelty_rate": 0.4074074074074074,
+  "recovery_rate": 0.2962962962962963,
+  "token_usage": {
+    "prompt_tokens": 30510,
+    "completion_tokens": 8511,
+    "total_tokens": 39021
+  },
+  "cost": 0.0047830452000000015,
+  "errors": [],
+  "error_summary": {
+    "total_errors": 0,
+    "error_types": {}
+  },
+  "all_hypotheses": [
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"
+  ],
+  "unique_structures": [
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0",
+    "Layer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"
+  ]
+}

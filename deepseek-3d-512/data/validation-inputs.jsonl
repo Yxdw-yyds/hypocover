@@ -1,0 +1,12 @@
+{"question_id": "g3_h3_b2_018", "top_view": [[0, 0, 1], [0, 0, 1], [0, 0, 0]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b2_006", "top_view": [[1, 0, 0], [0, 0, 0], [1, 0, 0]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b2_024", "top_view": [[0, 0, 0], [1, 0, 0], [1, 0, 0]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b2_010", "top_view": [[0, 1, 0], [1, 0, 0], [0, 0, 0]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b2_032", "top_view": [[0, 0, 0], [0, 0, 1], [0, 1, 0]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b2_021", "top_view": [[0, 0, 1], [0, 0, 0], [0, 0, 1]], "max_height": 3, "budget": 9, "occupied_columns": 2}
+{"question_id": "g3_h3_b3_021", "top_view": [[1, 0, 0], [0, 1, 0], [0, 1, 0]], "max_height": 3, "budget": 27, "occupied_columns": 3}
+{"question_id": "g3_h3_b3_054", "top_view": [[0, 0, 1], [1, 0, 0], [0, 0, 1]], "max_height": 3, "budget": 27, "occupied_columns": 3}
+{"question_id": "g3_h3_b3_076", "top_view": [[0, 0, 0], [0, 1, 1], [0, 1, 0]], "max_height": 3, "budget": 27, "occupied_columns": 3}
+{"question_id": "g3_h3_b3_039", "top_view": [[0, 1, 0], [1, 0, 0], [0, 0, 1]], "max_height": 3, "budget": 27, "occupied_columns": 3}
+{"question_id": "g3_h3_b3_059", "top_view": [[0, 0, 1], [0, 0, 1], [1, 0, 0]], "max_height": 3, "budget": 27, "occupied_columns": 3}
+{"question_id": "g3_h3_b3_036", "top_view": [[0, 1, 0], [1, 0, 1], [0, 0, 0]], "max_height": 3, "budget": 27, "occupied_columns": 3}
