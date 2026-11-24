@@ -82,12 +82,14 @@ def parse_vec(text: str | None, k: int) -> tuple[int, ...] | None:
     """Pull a k-tuple of heights in {1,2,3} out of a model answer."""
     if not text:
         return None
-    m = _VEC_RE.search(text)
-    if m:
+    # Prefer the *last* complete vector: the model may mention candidates in
+    # its reasoning before committing to a final answer (e.g. "H=(1,1,1) is
+    # already listed ... H=(3,2,3)").
+    for m in reversed(list(_VEC_RE.finditer(text))):
         nums = [int(x) for x in re.findall(r"[1-3]", m.group(1))]
         if len(nums) == k:
             return tuple(nums)
-    nums = [int(x) for x in _INT_RE.findall(text.splitlines()[0] if text else "")]
+    nums = [int(x) for x in _INT_RE.findall(text.splitlines()[-1] if text.strip() else "")]
     if len(nums) == k:
         return tuple(nums)
     nums = [int(x) for x in _INT_RE.findall(text)]

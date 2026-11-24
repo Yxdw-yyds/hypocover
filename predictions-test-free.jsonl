@@ -429,4 +429,4 @@
 {"question": "g3_h3_b3_079", "slot": 24, "scorer_text": "Layer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
 {"question": "g3_h3_b3_079", "slot": 25, "scorer_text": "Layer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
 {"question": "g3_h3_b3_079", "slot": 26, "scorer_text": "Layer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
-{"question": "g3_h3_b3_079", "slot": 27, "scorer_text": "Layer 1:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 27, "scorer_text": "Layer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
