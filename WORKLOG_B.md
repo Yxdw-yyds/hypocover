@@ -79,6 +79,7 @@
 
 - 截断：基线 138/648 → 我们 0/648；解析失败：约 4.5% → 0。
 - 初版有一题看起来是重复（`g3_h3_b3_079` 最后一轮），排查后是**解析器 bug**：模型回复里先提到 `H=(1,1,1)`，最后才给出 `H=(3,2,3)`，旧解析器取了第一个。改为取最后一个完整向量后重新评分：**648 次 0 重复，验证/测试都 100%**。
+- C 审计又发现两处：① trace 的 `vec`/`new` 是旧解析器的派生字段，已用 `vec_original`/`new_original` 保留原值并修正（`b/traces/README.md`）；② “平均方块数 4.56” 是分析脚本打印 bug（误用了第一题的值），正确值是 **5.02**（C 的复算正确）。
 
 ---
 
@@ -98,6 +99,7 @@
 | Windows 无 bash/uv | `make_datasets.sh` 跑不了 | 改 PowerShell；`.venv\Scripts\python.exe` |
 | Boolean hard 解析失败 | 1 小时 0 个 instance | `max_tokens` 2048→8192/16384；或缩短输出 |
 | 自由文本解析取错候选 | 模型先提候选、最后给答案，旧解析器取第一个 → 误判重复 | 改为取最后一个完整 `H=(...)`，`repro/rebuild_predictions.py` 离线重放 |
+| 分析脚本打印错误 | 平均方块数 4.56，C 复算 5.02 | 脚本误打印第一题的值；改为对题目取平均，正确值 5.02 |
 | 3D large 崩溃 | `ValueError: truth value of array` | 上游 `normalize()` 的 numpy 层；新分支已修 |
 | 预算消耗快 | reasoning 默认开，单题 $0.05 | 关 reasoning、缩 prompt；B 的新设置单题约 $0.001 |
 | 旧分支代码被删 | 新分支没有 `hypocover/` | 新代码放 `b/`，旧 covtree 留在 `main`/本地 |

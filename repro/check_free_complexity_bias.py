@@ -34,6 +34,6 @@ for k in (2, 3):
                     found.append(v)
             stats.append((mean(comp[v] for v in found), len(set(found) & low) / len(low),
                           len(set(found) & high) / len(high)))
-        print(f"  budget={budget:2d}: mean blocks of found={stats[0][0]:.2f} "
+        print(f"  budget={budget:2d}: mean blocks of found={mean(s[0] for s in stats):.2f} "
               f"low-third covered={mean(s[1] for s in stats):.2f} "
               f"high-third covered={mean(s[2] for s in stats):.2f}")
