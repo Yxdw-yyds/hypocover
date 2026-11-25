@@ -189,6 +189,8 @@ class Mock:
 def choose(policy, step, q, history, rng, model):
     if policy == "free_official":
         return "none"
+    if policy.startswith("fixed_"):  # pilot: always the same action
+        return policy[6:]
     if policy == "random_action":
         return LA.choose_random_action(rng)
     if policy == "random_level":
@@ -271,7 +273,7 @@ def run_question(q, backend, a, model):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--split", default="train", choices=["train", "validation", "test"])
-    ap.add_argument("--policy", default="free_official", choices=POLICIES)
+    ap.add_argument("--policy", default="free_official")  # POLICIES or fixed_<action> (pilot)
     ap.add_argument("--model-file", default=None)
     ap.add_argument("--repeat", type=int, default=1)
     ap.add_argument("--ids", nargs="*"); ap.add_argument("--limit", type=int)

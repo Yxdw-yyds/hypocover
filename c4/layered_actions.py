@@ -28,11 +28,22 @@ def k_of(observation: str) -> int:
     return str(observation).count("1")
 
 
+# PILOT actions (not part of the frozen protocol): target truncation and repeats instead of complexity
+PILOT_HINTS = {
+    "brief": "Do not write any explanation, reasoning or verification. Reply with only the structure in the required format.",
+    "differ": "Your structure must be different from every structure listed above (including the invalid ones). Do not repeat any of them.",
+    "brief_differ": "Do not write any explanation, reasoning or verification; reply with only the structure in the required format. "
+                    "Your structure must be different from every structure listed above (including the invalid ones).",
+}
+
+
 def hint_text(action: str, k: int) -> str:
     if action == "none":
         return ""
     if action.startswith("exact:"):  # paper-style: exactly c blocks
         return f"The total number of blocks in your structure must be exactly {int(action[6:])}."
+    if action in PILOT_HINTS:
+        return PILOT_HINTS[action]
     return HINTS[action].format(t=2 * k)
 
 
@@ -52,7 +63,9 @@ def tier_of(blocks: int, k: int) -> str:
 def complies(action: str, k: int, blocks: int) -> bool:
     if action.startswith("exact:"):
         return blocks == int(action[6:])
-    return action == "none" or tier_of(blocks, k) == action
+    if action == "none" or action in PILOT_HINTS:
+        return True  # no block-count constraint to obey
+    return tier_of(blocks, k) == action
 
 
 def gt_tier_counts(k: int, max_height: int = 3) -> dict[str, int]:
