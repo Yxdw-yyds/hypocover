@@ -1,0 +1,30 @@
+
+split=validation  questions=12 (k=2: 6, k=3: 6)  official scorer, mean over repeats
+
+arm                     RR   RR k2   RR k3      VR      NR | invalid    dup  comply   cost$ reps
+free_official       78.40%  87.96%  68.83%  88.43%  82.25% |    3.9%  12.5%       -   0.214 2
+paper_stratified    73.15%  89.81%  56.48%  78.09%  75.46% |    3.0%   6.7%     89%   0.251 2
+tier_static         67.13%  81.48%  52.78%  75.93%  69.14% |    2.5%   9.5%     93%   0.251 2
+random_level        62.35%  75.00%  49.69%  72.53%  64.81% |    3.2%  10.2%     96%   0.246 2
+tier_cycle          68.21%  85.19%  51.23%  76.54%  70.83% |    3.0%  10.2%     93%   0.245 2
+learned             78.86%  90.74%  66.98%  89.97%  81.48% |    3.5%  13.0%     92%   0.214 2
+
+(paper_stratified and tier_static use ground-truth counts; invalid/dup/comply/cost are descriptive trace statistics)
+
+provider mix per arm (an arm served by a different provider is confounded) and length-truncation rate:
+  free_official      truncated=15.5%  providers: deepseek-official:100%
+  paper_stratified   truncated=37.0%  providers: deepseek-official:100%
+  tier_static        truncated=35.6%  providers: deepseek-official:100%
+  random_level       truncated=37.0%  providers: deepseek-official:100%
+  tier_cycle         truncated=34.3%  providers: deepseek-official:100%
+  learned            truncated=13.0%  providers: deepseek-official:100%
+
+S1 learned - free_official = +0.46%  95% CI [-5.40%, +6.79%]  (need >= +5.00% and CI low > 0)  -> FAIL
+S2 learned 78.86% vs best non-learned `paper_stratified` 73.15%  -> PASS
+     learned - paper_stratified: +5.71%  95% CI [-1.39%, +11.73%]
+     learned - tier_static: +11.73%  95% CI [+5.25%, +17.59%]
+     learned - random_level: +16.51%  95% CI [+11.11%, +22.07%]
+     learned - tier_cycle: +10.65%  95% CI [+4.78%, +15.74%]
+S3 compliance=92% (>=80%), invalid learned 3.5% vs free 3.9%  -> PASS
+
+VERDICT: negative / inconclusive under the frozen criteria (report honestly; CIs are wide with few questions).
