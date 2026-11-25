@@ -1,0 +1,432 @@
+{"question": "g3_h3_b2_031", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 1\n1 0 0"}
+{"question": "g3_h3_b2_031", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_031", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_031", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_031", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_031", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 1\n1 0 0"}
+{"question": "g3_h3_b2_031", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_031", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n1 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_031", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 1\n1 0 0\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_029", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_029", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_029", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_029", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b2_020", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_020", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_020", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_020", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_020", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_020", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_020", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_020", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_020", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_025", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_025", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_025", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_025", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_025", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_025", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_025", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_025", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 1 0"}
+{"question": "g3_h3_b2_025", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_013", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_013", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n1 0 0\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_013", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_013", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n1 0 0\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_013", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n1 0 0\nLayer 3:\n0 1 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_013", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_013", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_013", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 1 0\n0 0 0\n0 0 0\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_013", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 0\n1 0 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_035", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 1"}
+{"question": "g3_h3_b2_035", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_035", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_035", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_035", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_035", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 1"}
+{"question": "g3_h3_b2_035", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 1"}
+{"question": "g3_h3_b2_035", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 1"}
+{"question": "g3_h3_b2_035", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 0 1\nLayer 2:\n0 0 0\n0 0 0\n1 0 1\nLayer 3:\n0 0 0\n0 0 0\n1 0 1"}
+{"question": "g3_h3_b2_030", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_030", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_030", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_030", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b2_030", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_030", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_030", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_030", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b2_030", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_023", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_023", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_012", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 0\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b2_034", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b2_034", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b2_034", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_034", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_034", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_034", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b2_034", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b2_034", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_034", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n1 1 0\nLayer 2:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b2_017", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_017", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 0 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b2_036", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 1 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_036", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 1 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_036", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_036", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_036", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_036", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b2_036", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 1 1\nLayer 3:\n0 0 0\n0 0 0\n0 1 1"}
+{"question": "g3_h3_b2_036", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b2_036", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 0 0\n0 1 1\nLayer 2:\n0 0 0\n0 0 0\n0 0 1\nLayer 3:\n0 0 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_051", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n0 0 1\n0 0 0\nLayer 3:\n0 0 1\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n0 0 1\n0 0 0\nLayer 3:\n0 0 1\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 1\n0 0 0\nLayer 3:\n0 0 1\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_051", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n1 0 1\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_073", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n0 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_073", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n0 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n0 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_073", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 0\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 0"}
+{"question": "g3_h3_b3_073", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n0 0 1"}
+{"question": "g3_h3_b3_073", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 0 0\n1 0 1\nLayer 2:\n0 0 0\n1 0 0\n1 0 1\nLayer 3:\n0 0 0\n1 0 0\n1 0 1"}
+{"question": "g3_h3_b3_077", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 1 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_077", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_077", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 1\n0 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_065", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 0 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n0 1 1\n0 0 0"}
+{"question": "g3_h3_b3_065", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 1\n0 0 0\nLayer 2:\n0 0 0\n1 1 1\n0 0 0\nLayer 3:\n0 0 0\n1 1 1\n0 0 0"}
+{"question": "g3_h3_b3_078", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n1 1 0"}
+{"question": "g3_h3_b3_078", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_078", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n1 1 0"}
+{"question": "g3_h3_b3_078", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_078", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_078", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n1 1 0"}
+{"question": "g3_h3_b3_078", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_078", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_078", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_078", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 1 0\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_079", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_079", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 1"}
+{"question": "g3_h3_b3_079", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_079", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_079", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 1\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_079", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n1 0 0\nLayer 3:\n0 0 0\n0 1 0\n1 0 0"}
+{"question": "g3_h3_b3_079", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n0 1 0\n1 0 1\nLayer 2:\n0 0 0\n0 1 0\n0 0 1\nLayer 3:\n0 0 0\n0 1 0\n0 0 1"}
+{"question": "g3_h3_b3_011", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 0\n0 0 0\n0 0 0\nLayer 3:\n1 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 0\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n1 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 0\n0 0 0\n0 0 0\nLayer 3:\n1 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 0\n0 0 0\n1 0 0\nLayer 3:\n1 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_011", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_011", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n1 0 1\n0 0 0\n1 0 0\nLayer 2:\n1 0 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1\nLayer 3:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 0\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 1\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 1 0\n0 0 0\n0 0 1"}
+{"question": "g3_h3_b3_046", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 0\n0 0 1\nLayer 3:\n0 1 0\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 0 0\n0 0 1\n0 0 0\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_046", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 1 0\n0 0 1\n0 0 1\nLayer 2:\n0 1 0\n0 0 1\n0 0 1\nLayer 3:\n0 0 0\n0 0 1\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 0\n0 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_057", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_057", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 1 0\n0 1 0\nLayer 2:\n0 0 1\n0 1 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_029", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n0 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n0 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0\nLayer 3:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n0 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 0\n1 0 0\n0 0 0\nLayer 3:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 0 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_029", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 1 1\n1 0 0\n0 0 0\nLayer 2:\n0 1 1\n1 0 0\n0 0 0\nLayer 3:\n0 1 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_062", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_062", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_062", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 0 0\nLayer 3:\n0 0 1\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_062", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 0 0\nLayer 3:\n0 0 1\n0 0 0\n0 0 0"}
+{"question": "g3_h3_b3_062", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n0 1 0"}
+{"question": "g3_h3_b3_062", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 1\n0 0 0\n1 1 0"}
+{"question": "g3_h3_b3_062", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 1\n0 0 0\n1 1 0\nLayer 2:\n0 0 1\n0 0 0\n1 1 0\nLayer 3:\n0 0 0\n0 0 0\n1 0 0"}
+{"question": "g3_h3_b3_067", "slot": 1, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 2, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 3, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 4, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 5, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 6, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 7, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 8, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 9, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 10, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 11, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 12, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 13, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 14, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 15, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 16, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 17, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 18, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 19, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 20, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n1 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 21, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 22, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 0 0\nLayer 3:\n0 0 0\n1 0 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 23, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 24, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 0 0\n0 1 0\nLayer 3:\n0 0 0\n1 0 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 25, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}
+{"question": "g3_h3_b3_067", "slot": 26, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 1 0\nLayer 3:\n0 0 0\n0 1 0\n0 1 0"}
+{"question": "g3_h3_b3_067", "slot": 27, "scorer_text": "Structure:\nLayer 1:\n0 0 0\n1 1 0\n0 1 0\nLayer 2:\n0 0 0\n1 1 0\n0 0 0\nLayer 3:\n0 0 0\n0 1 0\n0 0 0"}

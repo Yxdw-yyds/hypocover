@@ -1,0 +1,17 @@
+# Virtual environment & caches
+.venv/
+.hf_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Large model checkpoints & intermediate training shards
+dpo/checkpoints/
+dpo/data_gen/
+dpo/runs/train/
+
+# Never commit keys
+*.key
+.env
+.hypocover_*
