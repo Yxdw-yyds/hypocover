@@ -3,7 +3,7 @@ import json
 import itertools
 from pathlib import Path
 
-root = Path(r"D:\Machines Learning Final\hypocover-deepseek")
+root = Path(__file__).resolve().parents[1]
 
 
 def layers_to_vec(layers, positions):

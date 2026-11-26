@@ -1,8 +1,25 @@
-﻿.env
+# Environments & caches
+.venv/
+.hf_cache/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
 .pytest_cache/
 .DS_Store
-predictions-smoke-*
 
+# Model weights, large intermediate training data, & scratch outputs
+dpo/checkpoints/
+dpo/data_gen/
+dpo/runs/train/
+c4/layered_smoke/
+c4/quarantine_*/
+projection-runs/
+predictions-smoke-*
 predictions-*-oracle.jsonl
+
+# Secrets & keys (never commit)
+.env
+*.key
+.hypocover_*
+c4/save_key.py
+c4/collect_with_key.py
