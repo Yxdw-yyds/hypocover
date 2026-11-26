@@ -3,6 +3,13 @@
 > **机器学习课程期末项目（Final Project）** · 基于 ICML 2026 [HypoSpace](https://proceedings.mlr.press/v306/chen26bz.html) 基准  
 > 围绕科学欠定性（Underdetermination）下的**多假设集合覆盖坍缩（Mode Collapse）**问题，本仓库在严格冻结的 3D 体素重建基准（84 train / 12 validation / 24 test）上，系统性地从**输出表示空间**、**输入提示策略空间**与**模型权重参数空间**三个正交维度展开了对照实验、消融与机理归因。
 
+| 团队模块 | 研究维度 | 核心工作与交付物 | 详细报告 |
+|---|---|---|---|
+| **模块 A** | 基准构建与失败诊断 | 冻结 84/12/24 题单与统一评分器 `score_predictions.py`，建立 `DeepSeek-V4-Flash`（53.55%）与 `Qwen3-8B`（1.08%）官方格式基线 | 见本文 §1, §3.1 |
+| **模块 B** | 输出表示空间 | 提出双射高度向量表示 $H\in\{1,2,3\}^k$，实现验证/测试 **100.00% RR**（费用降至 1/6.6），并揭示紧预算下的简单结构偏好 | [b/README.md](b/README.md) |
+| **模块 C** | 输入提示策略空间 | 在官方格式上训练 L2 逻辑回归 Contextual Bandit 提示调度器（预注册负结果 +0.54 pp），通过 4 项探针证明黑盒“推理 vs. 截断”死锁 | [c4/README.md](c4/README.md) |
+| **模块 D** | 模型权重参数空间 | 在 `Qwen2.5-1.5B` 上提出边际对称锚定 `Coverage-DPO`（零草稿达 **99.85%~100% VR**、**64.04% RR**，显著超越 512 基线），揭示 DPO 熵坍缩与前缀树核采样偏置 | [dpo/README.md](dpo/README.md) |
+
 ---
 
 ## 1. 问题定义与冻结评测协议
@@ -58,26 +65,26 @@
 
 ## 3. 四大模块核心发现与跨维度综合归因
 
-### 模块 A：官方逐层基线与失败模式拆解（`results/`，详见 [BASELINE_HANDOFF_A.md](BASELINE_HANDOFF_A.md)）
-- 在官方逐层 0/1 矩阵提示与 `max_tokens=512` 下，`DeepSeek-V4-Flash` 测试集 RR 仅为 **53.55%**（三列题跌至 **44.14%**，甚至低于独立盲抽的 63.90%），同题 `Qwen3-8B` 更是仅有 **1.08%**。
+### 模块 A：官方逐层基线与失败模式拆解（`results/`、`summary.json`）
+- 在官方逐层 0/1 矩阵提示与 `max_tokens=512` 下，`DeepSeek-V4-Flash` 测试集 RR 仅为 **53.55%**（三列题跌至 **44.14%**，甚至低于独立盲抽的 63.90%），同题 `Qwen3-8B` 更是仅有 **1.08%**（验证 + 测试共花费 \$0.1176）。
 - 逐槽位拆解表明损失来自三重叠加：**历史重复（~30%）**、**物理违规（悬空方块或底面全零，~16%）** 与 **输出超长截断（~20%）**，且新解发现率从前 1/3 轮次的 66% 恶化至后 1/3 轮次的 24%。
 
-### 模块 B：输出表示空间工程——双射高度向量与简单偏好发现（`b/`，详见 [METHOD_AND_RESULTS.md](METHOD_AND_RESULTS.md)）
+### 模块 B：输出表示空间工程——双射高度向量与简单偏好发现（详见 [b/README.md](b/README.md)）
 - **方法**：利用重力与列独立先验，将输出与历史压缩为双射高度向量 $H=(h_1,\dots,h_k)\in\{1,2,3\}^k$，本地确定性还原为体素网格送入官方评分器。
 - **关键结论**：
   1. 修复自由文本“取最后一个完整向量”的解析细节后（离线重放验证脚本 `repro/verify_free_100.py`），不加额外约束的 `free` 在验证集和测试集（共 648 次调用）实现 **0 次截断、0 次重复、RR = 100.00%**，费用降至基线的 **1/6.6（\$0.0177）**。这证明在可分解的小规模空间上，**冗长易错的输出表示是首要工程瓶颈**。
-  2. **紧预算简单偏好（Simplicity Bias）**：离线分析（`repro/check_free_complexity_bias.py`）揭示，虽然满预算饱和，但在前 9/27 次紧预算下，`free` 对低复杂度矮结构的覆盖达 **66%**，而对高复杂度结构的覆盖仅为 **7%**（见 [C_NEXT_STEPS.md](C_NEXT_STEPS.md)）。
+  2. **紧预算简单偏好（Simplicity Bias）**：离线分析（`repro/check_free_complexity_bias.py`）揭示，虽然满预算饱和，但在前 9/27 次紧预算下，`free` 对低复杂度矮结构的覆盖达 **66%**，而对高复杂度结构的覆盖仅为 **7%**。
 
-### 模块 C：输入提示策略空间——严格预注册负结果与四项探针（`c4/`，详见 [c4/HANDOFF_C.md](c4/HANDOFF_C.md) 与 [c4/results_ds/RESULTS.md](c4/results_ds/RESULTS.md)）
+### 模块 C：输入提示策略空间——严格预注册负结果与四项探针（详见 [c4/README.md](c4/README.md)）
 - **研究问题**：保持官方提示与逐层输出不变，仅通过 L2 逻辑回归（Contextual Bandit）根据历史特征自适应选择复杂度提示后缀（`none / low / mid / high`），能否提升官方 RR？
 - **主实验结论（诚实的负结果）**：在 84 道训练题收集随机轨迹拟合并冻结策略后，测试集 `learned`（**76.93%**）相对 `free_official`（**76.39%**）仅差 **+0.54 pp（95% CI [-2.0, +3.1]）**，未通过预注册门槛（≥ +5 pp）；学习器在 **93% 的步骤退化为选择 `none`**，因为带提示臂的截断率高达 32%~38%（$k=3$ 的 `mid` 截断达 71%），学习器实质上学到的是“避开截断”。
-- **后续四项探针（[c4/pilot/PILOT_PLAN.md](c4/pilot/PILOT_PLAN.md)、[c4/ORDER_PROBE.md](c4/ORDER_PROBE.md)）彻底查明黑盒不可学根源**：
+- **后续四项探针彻底查明黑盒不可学根源**：
   1. **探针 1（“推理 vs. 截断”死锁）**：强制简短输出 `fixed_brief` 将截断降至 0%，但**物理不合法率从 4.2% 暴增至 48.6%**，新解率反降 31.9 pp——证明冻结大模型必须依赖数百词的正文推理草稿来验算重力与去重；
   2. **探针 2（多候选过滤分解）**：每步采 $m=3$ 并用确定性校验器过滤可将 RR 提至 88.0%（均摊约 1.5 次调用/步），但在满预算同构设定下按档位价值挑选仅多 +1.8 pp，无学习空间；
   3. **探针 3（离线算力分配门槛）**：预测单步成功率的 5 折 `AUC = 0.684`，而单一标量特征 `step/N` 即有 `0.688`，因所有 $k$ 列题组合同构于 $\{1,2,3\}^k$，无跨题异质特征可供 Bandit 利用；
   4. **探针 4（历史重排探针）**：小样本重排未见稳定去重证据，按冻结规则停止。
 
-### 模块 D：模型权重参数空间——对称锚定 `Coverage-DPO` 与理论边界验证（`dpo/`，详见 [dpo/HANDOFF_D_COVERAGE_DPO.md](dpo/HANDOFF_D_COVERAGE_DPO.md)）
+### 模块 D：模型权重参数空间——对称锚定 `Coverage-DPO` 与理论边界验证（详见 [dpo/README.md](dpo/README.md)）
 - **切入动机**：既然模块 C 证明黑盒改提示词无法打破“不写草稿就违规（48.6%）、写草稿就截断”的死锁，我们直接在 **1.5B 小模型（`Qwen2.5-1.5B-Instruct`）的权重参数空间** 进行 LoRA 微调与覆盖率偏好对齐，严格保持官方提示词、官方逐层格式与 $m=1$ 单次采样。
 - **核心发现与正结果**：
   1. **零草稿跨空间完美物理泛化**：基座模型在测试集上 `VR = 0.0%, RR = 0.0%`；仅在 84 道训练题上微调后，模型在**从未见过的 24 道测试俯视图**上仅用 **~57–61 tokens（零推理草稿、0% 截断）** 即达到 **99.85% ~ 100.00% VR**，正面打破模块 C 探针 1 的黑盒死锁。
@@ -92,24 +99,14 @@
 ```text
 .
 ├── README.md                       # 全组四模块统一总览、主结果表与综合归因（本文件）
-├── BASELINE_HANDOFF_A.md           # 模块 A：DeepSeek 512 官方基线与评分交接说明
-├── METHOD_AND_RESULTS.md           # 模块 B：高度向量双射方法、审计修正与 100% 结果报告
-├── WORKLOG_B.md / C_NEXT_STEPS.md  # 模块 B：开发日志与紧预算简单偏好证据
 ├── score_predictions.py            # 官方冻结 3D 评分器（全组所有模块统一使用）
 ├── summary.json / results/         # 模块 A：官方 512-token 基线逐题轨迹与评分
-├── data/                           # 冻结 84/12/24 题单、SHA-256 manifest 与标准答案（仅供评测/训练）
+├── data/                           # 冻结 84/12/24 题单、SHA-256 manifest 与标准答案
 ├── upstream/3d/                    # 冻结上游 HypoSpace 3D 官方基准与解析/校验源码
-├── b/                              # 模块 B 源码、逐题轨迹 (b/traces/) 与双射校验脚本
+├── b/                              # 模块 B：高度向量双射源码、逐题轨迹 (b/traces/) 与模块报告 (b/README.md)
 ├── repro/                          # 模块 A/B 离线核验脚本（100% 重放校验、复杂度偏置统计）
-├── c4/                             # 模块 C 源码、冻结策略 policy_ds.json、测试轨迹与四项探针
-│   ├── HANDOFF_C.md                # 模块 C 交接总结与探针增益分解
-│   ├── results_ds/RESULTS.md       # 模块 C 预注册 S1-S3 统计检验结果
-│   └── pilot/PILOT_PLAN.md         # 模块 C 探针 1-3 预注册方案与数据
-└── dpo/                            # 模块 D 源码、四阶消融评测轨迹、SVG 曲线与报告
-    ├── HANDOFF_D_COVERAGE_DPO.md   # 模块 D 完整方法公式、置信区间与机制分析报告
-    ├── figures/                    # 发表级 RR@k 矢量曲线 (.svg) 与原始数据 (.csv)
-    ├── results_summary.json        # 验证/测试集全部消融组统计指标与 Bootstrap CI
-    └── runs/{validation,test}/     # 模块 D 全部模型 3 次重复的 predictions.jsonl、score.json 与轨迹
+├── c4/                             # 模块 C：提示策略 Bandit 源码、冻结策略 policy_ds.json、轨迹与报告 (c4/README.md)
+└── dpo/                            # 模块 D：Coverage-DPO 源码、四阶消融轨迹、SVG 曲线与报告 (dpo/README.md)
 ```
 
 ---
@@ -135,7 +132,7 @@ python -B -m dpo.analyze --splits validation test --arms base dpo_imbalanced sft
 python -B -m dpo.make_plots --split test --arms base dpo_imbalanced sft_validity sft_history coverage_dpo coverage_dpo_t10
 ```
 
-如需从头重跑模块 B / C 的在线 API 生成或模块 D 的本地 GPU LoRA SFT + DPO 训练，请分别参阅 [METHOD_AND_RESULTS.md](METHOD_AND_RESULTS.md)、[c4/HANDOFF_C.md](c4/HANDOFF_C.md) 与 [dpo/HANDOFF_D_COVERAGE_DPO.md](dpo/HANDOFF_D_COVERAGE_DPO.md) 中的完整命令。
+如需从头重跑模块 B / C 的在线 API 生成或模块 D 的本地 GPU LoRA SFT + DPO 训练，请分别参阅 [b/README.md](b/README.md)、[c4/README.md](c4/README.md) 与 [dpo/README.md](dpo/README.md)。
 
 ---
 
