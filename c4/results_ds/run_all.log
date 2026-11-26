@@ -1,0 +1,49 @@
+[11-25 13:51:15] === run_all start (backend=deepseek) ===
+[11-25 13:55:40] === run_all start (backend=deepseek) ===
+[11-25 14:08:58] STOPPED at train collection: exit codes [1, 1]. Rerun the same command to resume.
+[11-25 20:06:38] === run_all start (backend=deepseek) ===
+[11-25 20:21:34] step 1 done: train trajectories
+[11-25 20:21:41] step 2 done: policy fitted on train only and frozen -> c4\policy_ds.json
+[11-25 20:24:38] validation/free_official: both repeats done
+[11-25 20:28:02] validation/paper_stratified: both repeats done
+[11-25 20:31:16] validation/tier_static: both repeats done
+[11-25 20:34:29] validation/random_level: both repeats done
+[11-25 20:37:31] validation/tier_cycle: both repeats done
+[11-25 20:40:10] validation/learned: both repeats done
+[11-25 20:41:16] analysis -> c4\results_ds\results_validation.txt (exit 0)
+[11-25 20:46:26] test/free_official: both repeats done
+[11-25 20:46:32] STOPPED at test/paper_stratified: exit codes [1, 1]. Rerun the same command to resume.
+[11-25 21:00:53] === run_all start (backend=deepseek) ===
+[11-25 21:00:57] step 1 done: train trajectories
+[11-25 21:00:57] step 2 skipped: policy already frozen at c4\policy_ds.json
+[11-25 21:01:00] validation/free_official: both repeats done
+[11-25 21:01:04] validation/paper_stratified: both repeats done
+[11-25 21:01:07] validation/tier_static: both repeats done
+[11-25 21:01:10] validation/random_level: both repeats done
+[11-25 21:01:13] validation/tier_cycle: both repeats done
+[11-25 21:01:16] validation/learned: both repeats done
+[11-25 21:01:16] analysis -> c4\results_ds\results_validation.txt (exit 0)
+[11-25 21:01:20] test/free_official: both repeats done
+[11-25 21:07:05] test/paper_stratified: both repeats done
+[11-25 21:12:58] test/tier_static: both repeats done
+[11-25 21:18:52] test/random_level: both repeats done
+[11-25 21:24:34] test/tier_cycle: both repeats done
+[11-25 21:24:38] STOPPED at test/learned: exit codes [1, 1]. Rerun the same command to resume.
+[11-25 21:58:20] === run_all start (backend=deepseek) ===
+[11-25 21:58:24] step 1 done: train trajectories
+[11-25 21:58:24] step 2 skipped: policy already frozen at c4\policy_ds.json
+[11-25 21:58:27] validation/free_official: both repeats done
+[11-25 21:58:30] validation/paper_stratified: both repeats done
+[11-25 21:58:33] validation/tier_static: both repeats done
+[11-25 21:58:36] validation/random_level: both repeats done
+[11-25 21:58:40] validation/tier_cycle: both repeats done
+[11-25 21:58:43] validation/learned: both repeats done
+[11-25 21:58:43] analysis -> c4\results_ds\results_validation.txt (exit 0)
+[11-25 21:58:46] test/free_official: both repeats done
+[11-25 21:58:50] test/paper_stratified: both repeats done
+[11-25 21:58:53] test/tier_static: both repeats done
+[11-25 21:58:57] test/random_level: both repeats done
+[11-25 21:59:01] test/tier_cycle: both repeats done
+[11-25 22:03:44] test/learned: both repeats done
+[11-25 22:04:27] analysis -> c4\results_ds\results_test.txt (exit 0)
+[11-25 22:04:27] === ALL DONE ===

@@ -1,0 +1,30 @@
+
+split=test  questions=24 (k=2: 12, k=3: 12)  official scorer, mean over repeats
+
+arm                     RR   RR k2   RR k3      VR      NR | invalid    dup  comply   cost$ reps
+free_official       76.39%  84.26%  68.52%  87.42%  80.56% |    3.5%  13.1%       -   0.422 2
+paper_stratified    72.69%  92.13%  53.24%  77.93%  74.07% |    2.1%   6.8%     88%   0.504 2
+tier_static         68.98%  81.94%  56.02%  76.70%  71.76% |    3.2%   8.8%     94%   0.502 2
+random_level        65.66%  77.78%  53.55%  72.92%  68.60% |    3.2%   7.9%     94%   0.504 2
+tier_cycle          68.52%  84.26%  52.78%  75.54%  71.37% |    3.4%   8.6%     93%   0.500 2
+learned             76.93%  84.26%  69.60%  87.96%  80.48% |    3.0%  13.3%     98%   0.429 2
+
+(paper_stratified and tier_static use ground-truth counts; invalid/dup/comply/cost are descriptive trace statistics)
+
+provider mix per arm (an arm served by a different provider is confounded) and length-truncation rate:
+  free_official      truncated=15.5%  providers: deepseek-official:100%
+  paper_stratified   truncated=38.1%  providers: deepseek-official:100%
+  tier_static        truncated=32.3%  providers: deepseek-official:100%
+  random_level       truncated=36.7%  providers: deepseek-official:100%
+  tier_cycle         truncated=36.1%  providers: deepseek-official:100%
+  learned            truncated=15.5%  providers: deepseek-official:100%
+
+S1 learned - free_official = +0.54%  95% CI [-2.01%, +3.09%]  (need >= +5.00% and CI low > 0)  -> FAIL
+S2 learned 76.93% vs best non-learned `paper_stratified` 72.69%  -> PASS
+     learned - paper_stratified: +4.24%  95% CI [-1.62%, +10.19%]
+     learned - tier_static: +7.95%  95% CI [+3.86%, +11.88%]
+     learned - random_level: +11.27%  95% CI [+6.79%, +15.51%]
+     learned - tier_cycle: +8.41%  95% CI [+3.16%, +13.43%]
+S3 compliance=98% (>=80%), invalid learned 3.0% vs free 3.5%  -> PASS
+
+VERDICT: negative / inconclusive under the frozen criteria (report honestly; CIs are wide with few questions).
